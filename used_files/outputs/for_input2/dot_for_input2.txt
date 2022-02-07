@@ -1,0 +1,55 @@
+digraph Res {
+	"B_{1,1,3}" [label = "B_{1,1,3}", fillcolor = "#88cf93", style = filled]
+	"C_{1,2,3}" -> "A_{2,3}"
+	"B_{1,3,3}" [label = "B_{1,3,3}", fillcolor = "#88cf93", style = filled]
+	"B_{1,4,2}" -> "C_{1,4,2}"
+	"C_{1,3,3}" [label = "C_{1,3,3}", fillcolor = "#aef13c", style = filled]
+	"B_{1,2,3}" [label = "B_{1,2,3}", fillcolor = "#88cf93", style = filled]
+	"A_{1,3}" -> "B_{1,3,3}"
+	"A_{1,2}" -> "B_{1,1,2}"
+	"B_{1,3,3}" -> "C_{1,3,3}"
+	"C_{1,2,2}" -> "A_{2,3}"
+	"A_{2,3}" -> "B_{2,2,3}"
+	"C_{1,4,3}" -> "C_{2,4,3}"
+	"B_{1,2,2}" -> "C_{1,2,2}"
+	"B_{2,2,3}" -> "C_{2,2,3}"
+	"A_{2,3}" [label = "A_{2,3}", fillcolor = "#d966b0", style = filled]
+	"C_{1,2,2}" [label = "C_{1,2,2}", fillcolor = "#aef13c", style = filled]
+	"A_{1,3}" -> "B_{1,2,3}"
+	"A_{1,2}" [label = "A_{1,2}", fillcolor = "#552af2", style = filled]
+	"B_{2,2,3}" [label = "B_{2,2,3}", fillcolor = "#2c0801", style = filled]
+	"A_{2,3}" -> "B_{2,3,3}"
+	"A_{1,2}" -> "B_{1,4,2}"
+	"A_{1,2}" -> "B_{1,2,2}"
+	"B_{1,1,3}" -> "C_{1,1,3}"
+	"C_{1,2,3}" [label = "C_{1,2,3}", fillcolor = "#aef13c", style = filled]
+	"B_{1,1,2}" -> "C_{1,1,2}"
+	"C_{1,3,2}" [label = "C_{1,3,2}", fillcolor = "#aef13c", style = filled]
+	"B_{1,3,2}" -> "C_{1,3,2}"
+	"B_{1,2,3}" -> "C_{1,2,3}"
+	"A_{1,2}" -> "B_{1,3,2}"
+	"C_{1,4,2}" -> "B_{2,4,3}"
+	"C_{1,1,3}" [label = "C_{1,1,3}", fillcolor = "#aef13c", style = filled]
+	"B_{2,4,3}" [label = "B_{2,4,3}", fillcolor = "#2c0801", style = filled]
+	"A_{1,3}" [label = "A_{1,3}", fillcolor = "#552af2", style = filled]
+	"A_{2,3}" -> "B_{2,4,3}"
+	"B_{2,3,3}" -> "C_{2,3,3}"
+	"C_{1,4,3}" [label = "C_{1,4,3}", fillcolor = "#aef13c", style = filled]
+	"C_{2,4,3}" [label = "C_{2,4,3}", fillcolor = "#7ca4f8", style = filled]
+	"A_{1,3}" -> "B_{1,1,3}"
+	"C_{1,4,2}" [label = "C_{1,4,2}", fillcolor = "#aef13c", style = filled]
+	"C_{1,3,3}" -> "C_{2,3,3}"
+	"A_{1,3}" -> "B_{1,4,3}"
+	"B_{1,3,2}" [label = "B_{1,3,2}", fillcolor = "#88cf93", style = filled]
+	"C_{1,1,2}" [label = "C_{1,1,2}", fillcolor = "#aef13c", style = filled]
+	"B_{1,4,3}" [label = "B_{1,4,3}", fillcolor = "#88cf93", style = filled]
+	"B_{1,4,2}" [label = "B_{1,4,2}", fillcolor = "#88cf93", style = filled]
+	"B_{2,3,3}" [label = "B_{2,3,3}", fillcolor = "#2c0801", style = filled]
+	"B_{1,1,2}" [label = "B_{1,1,2}", fillcolor = "#88cf93", style = filled]
+	"B_{2,4,3}" -> "C_{2,4,3}"
+	"C_{1,3,2}" -> "B_{2,3,3}"
+	"B_{1,2,2}" [label = "B_{1,2,2}", fillcolor = "#88cf93", style = filled]
+	"C_{2,3,3}" [label = "C_{2,3,3}", fillcolor = "#7ca4f8", style = filled]
+	"B_{1,4,3}" -> "C_{1,4,3}"
+	"C_{2,2,3}" [label = "C_{2,2,3}", fillcolor = "#7ca4f8", style = filled]
+}
